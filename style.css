@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background: #fff0f5 url("https://i.imgur.com/W51jlqp.png");
+  background-size: contain;
+  color: #5a2b46;
+  text-align: center;
+}
+
+header {
+  background-color: #ffddee;
+  padding: 20px;
+  border-bottom: 3px dashed pink;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1em;
+  margin: 5px 0 15px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #e75480;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: #ffe6f0;
+}
+
+nav a:hover {
+  background: #ffcce5;
+}
+
+.card {
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 2px dotted pink;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid pink;
+}
+
+.speech-bubble {
+  background: #fff;
+  border: 2px solid pink;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top-color: pink;
+}
+
+.skills {
+  margin: 20px auto;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: #ffe6f0;
+  border: 2px dashed #e75480;
+  border-radius: 30px;
+  padding: 8px 15px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.sns {
+  margin: 30px 0;
+}
+
+.sns-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.twitter {
+  background: #55acee;
+}
+.instagram {
+  background: #c13584;
+}
+.github {
+  background: #333;
+}
